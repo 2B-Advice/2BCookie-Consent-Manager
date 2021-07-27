@@ -1,5 +1,5 @@
 homepage: "https://2b-advice.com"
 documentation: "https://2badviceprime.blob.core.windows.net/manuals/2B%20Advice%20Cookie%20Consent%20Manager%20Web%20Developers%20Guide.pdf"
 versions:
-  - sha:  d76c9f4
+  - sha:  ebfb8a5c7c83c959515479fab7cd16877361b01b
     changeNotes: Introduced initial version of 2BCookie Consent Manager
