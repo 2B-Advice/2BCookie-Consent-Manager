@@ -164,7 +164,7 @@ const setDefaultConsentState =require('setDefaultConsentState');
 const statementId = data.statementId;
 const language = data.language;
 
-let scriptUrl = 'https://2badvicecdn.blob.core.windows.net/psfqa/js/bb-manager.js?bbcid=' + encodeUriComponent(statementId);
+let scriptUrl = 'https://2badvicecdn.blob.core.windows.net/psf/js/bb-manager.js?bbcid=' + encodeUriComponent(statementId);
 
 if (language === 'variable')
 {
