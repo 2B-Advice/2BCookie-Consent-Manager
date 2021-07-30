@@ -1,5 +1,7 @@
 homepage: "https://2b-advice.com"
 documentation: "https://2badviceprime.blob.core.windows.net/manuals/2B%20Advice%20Cookie%20Consent%20Manager%20Web%20Developers%20Guide.pdf"
 versions:
+  - sha:  871a781154418c8c2981bb489d7eb1953949e982
+    changeNotes: Added wait_for_update to consent initialization
   - sha:  8ad63719e25c75aed3ddbe6a872d6828733557c2
     changeNotes: Introduced initial version of 2BCookie Consent Manager
