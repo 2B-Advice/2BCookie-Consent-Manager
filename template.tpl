@@ -180,7 +180,8 @@ setDefaultConsentState({
   'analytics_storage': data.statisticsDefaultState,
   'functionality_storage': data.preferencesDefaultState,
   'personalization_storage': data.preferencesDefaultState,
-  'security_storage': 'granted'
+  'security_storage': 'granted',
+  'wait_for_update': 500
 });
 
 if (queryPermission('inject_script', scriptUrl)) {
