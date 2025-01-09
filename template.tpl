@@ -168,7 +168,7 @@ const setDefaultConsentState =require('setDefaultConsentState');
 const statementId = data.statementId;
 const language = data.language;
 
-let scriptUrl = 'https://2badvicecdn.blob.core.windows.net/psf/js/bb-manager.js?bbcid=' + encodeUriComponent(statementId);
+let scriptUrl = 'https://cdn.2b-advice.com/psf/js/bb-manager.js?bbcid=' + encodeUriComponent(statementId);
 
 if (language === 'variable')
 {
@@ -203,20 +203,7 @@ ___WEB_PERMISSIONS___
         "publicId": "inject_script",
         "versionId": "1"
       },
-      "param": [
-        {
-          "key": "urls",
-          "value": {
-            "type": 2,
-            "listItem": [
-              {
-                "type": 1,
-                "string": "https://*.windows.net/"
-              }
-            ]
-          }
-        }
-      ]
+      "param": []
     },
     "clientAnnotations": {
       "isEditedByUser": true
