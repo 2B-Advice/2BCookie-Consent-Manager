@@ -2,7 +2,7 @@ homepage: "https://2b-advice.com"
 documentation: "https://2badviceprime.blob.core.windows.net/manuals/2B%20Advice%20Cookie%20Consent%20Manager%20Web%20Developers%20Guide.pdf"
 versions:
 # Latest version 
-  - sha:  a1c4bd71f3812490ca362089c188b40ac3671bcc
+  - sha:  133d1b90db1cb5af8ed0c89805ac2100f335f9b7
     changeNotes: Change the CDN URL
 # Older versions
   - sha:  7a0ac944f6a8f42f3345bb8eb73348a6eff696e2
